@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  27 SEP 2021 08:39
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  30 SEP 2021 13:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1001,18 +1001,8 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 7.
  [1
 
-]
-Runaway argument?
-! Paragraph ended before \cventry was complete.
-<to be read again> 
-                   \par 
-l.110 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-) (./resume_federal/communication.tex
+])
+(./resume_federal/communication.tex
 
 LaTeX Font Warning: Font shape `TU/SourceSansPro(1)/m/scit' undefined
 (Font)              using `TU/SourceSansPro(1)/m/it' instead on input line 7.
