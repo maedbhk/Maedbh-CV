@@ -1,0 +1,138 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{maedbh-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-skyblue}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[noedge,left]{profile.png}
+
+\name{Maedbh}{King}
+\position{{\enskip\cdotp\enskip}Ph.D. Candidate{\enskip\cdotp\enskip}}
+\address{67 Glen Avenue, \#202, Oakland, CA, USA}
+
+\mobile{(510) 570-5306}
+\email{maedbhking@gmail.com}
+\homepage{www.maedbhking.com}
+\github{maedbhk}
+%\linkedin{maedbhking}
+\googlescholar{YS9zF8gAAAAJ&hl}{Maedbh King}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Company Recruitment Team}
+  {Microsoft Inc.\\One Microsoft Way\\Redmond, WA}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Internship Application for Data and Applied Science}
+% How the letter is opened
+\letteropening{To whom it may concern, }
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Maedbh King~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+\lettersection{About Me}
+I'm currently a PhD candidate in cognitive neuroscience at UC Berkeley. I design large-scale neuroimaging studies and use machine learning to map the connectivity between the cerebral cortex and the cerebellum ("little brain"). The holy grail of cognitive neuroscience is to understand what the cerebellum is doing in cognition. My research attempts to answer this question, and the more I learn, the more I am fascinated by this mysterious yet widely misunderstood brain structure.
+
+\lettersection{Why Microsoft?}
+Microsoft pushes past the edge of knowledge by continuously breaking boundaries, and setting its sights on challenges that seem impossible until they become a reality. It is clear that Microsoft values the diverse perspectives that each person brings and fosters a spirit of collaboration that sets them apart. The prospect of working in an environment where employees are required to think creatively and critically is simultaneously thrilling and humbling.
+
+\lettersection{Why Me?}
+My experience in conducting scientific research has ignited a passion for discovery that extends beyond the confines of academia. My entire academic career has been spent using machine learning to understand the cerebellum, the "underdog" of the brain, and through my work, I have managed to convince many people of its importance. I focus on difficult questions, not because they are popular, but because they are important. 
+
+I want to design solutions that empower ordinary people, whether it's advancing VS code or connecting people through Microsoft teams. The capacity that machine learning has to advance human well-being and social connection is enormous, but I also know that there is great power in the questions we ask, the challenges we set, and our motivation to solve them.
+
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
