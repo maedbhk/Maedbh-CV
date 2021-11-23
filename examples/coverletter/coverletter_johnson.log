@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  19 NOV 2021 18:24
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  19 OCT 2021 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**coverletter_deepmind.tex
-(./coverletter_deepmind.tex
+**coverletter_johnson.tex
+(./coverletter_johnson.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (./maedbh-cv.cls
 Document Class: maedbh-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
@@ -808,8 +808,9 @@ The existing definition of '\FA' will not be altered.
 )
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 98.
- (./coverletter_deepmind.aux)
-\openout1 = `coverletter_deepmind.aux'.
+
+No file coverletter_johnson.aux.
+\openout1 = `coverletter_johnson.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
 LaTeX Font Info:    ... okay on input line 98.
@@ -831,7 +832,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
 LaTeX Font Info:    ... okay on input line 98.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 98.
 LaTeX Font Info:    ... okay on input line 98.
- ABD: EverySelectfont initializing macros
+ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 98.
 
 *geometry* driver: auto-detecting
@@ -926,9 +927,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 98.
 LaTeX Info: Redefining \pageref on input line 98.
 LaTeX Info: Redefining \nameref on input line 98.
- (./coverletter_deepmind.out) (./coverletter_deepmind.out)
 \@outlinefile=\write6
-\openout6 = `coverletter_deepmind.out'.
+\openout6 = `coverletter_johnson.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \headertextwidth=\skip82
 \headerphotowidth=\skip83
@@ -977,6 +981,18 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 112.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 9.0pt on input line 112.
+! Misplaced alignment tab character &.
+\@recipientaddress ...on \& Johnson\\One Johnson &
+                                                   Johnson Plaza\\New Brunsw...
+l.112 \makelettertitle
+                      
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 112--112
 
@@ -1008,38 +1024,44 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 14.0pt on input line 119.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 139.
+(Font)              scaled to size 10.0pt on input line 135.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 139.
+(Font)              scaled to size 10.0pt on input line 135.
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 141.
+(Font)              scaled to size 10.0pt on input line 137.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 141.
+(Font)              scaled to size 8.0pt on input line 137.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 141.
+(Font)              scaled to size 8.0pt on input line 137.
 [1
 
-] (./coverletter_deepmind.aux)
-Package rerunfilecheck Info: File `coverletter_deepmind.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+] (./coverletter_johnson.aux)
+
+Package rerunfilecheck Warning: File `coverletter_johnson.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `coverletter_johnson.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31330 strings out of 476919
- 623787 string characters out of 5821841
- 1097573 words of memory out of 5000000
+ 31324 strings out of 476919
+ 623628 string characters out of 5821841
+ 1097469 words of memory out of 5000000
  50775 multiletter control sequences out of 15000+600000
  406723 words of font info for 114 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 127i,11n,130p,667b,827s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 127i,11n,130p,583b,827s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on coverletter_deepmind.pdf (1 page).
+Output written on coverletter_johnson.pdf (1 page).
