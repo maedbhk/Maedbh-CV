@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  23 NOV 2021 11:42
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  25 NOV 2021 18:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -808,7 +808,7 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 
 
 LaTeX Warning: Unused global option(s):
-    [8pt].
+    [9pt].
 
 (./cv_academic.aux)
 \openout1 = `cv_academic.aux'.
@@ -999,17 +999,30 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/n' will be
 (Font)              scaled to size 9.0pt on input line 24.
 )
-(./cv_academic/experience.tex) (./cv_academic/projects.tex [1
+(./cv_academic/awards.tex
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 17.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
+(Font)              scaled to size 9.0pt on input line 17.
+) (./cv_academic/experience.tex)
+(./cv_academic/projects.tex [1
 
-])
-(./cv_academic/papers.tex
+]) (./cv_academic/papers.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 6.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 12.0pt on input line 6.
- [2]) (./cv_academic/posters.tex)
-(./cv_academic/talks.tex [3]) (./cv_academic/teaching.tex)
-(./cv_academic/outreach.tex) (./cv_academic/mentorship.tex [4])
+ [2])
+(./cv_academic/posters.tex) (./cv_academic/talks.tex [3]
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/sl' in size <8> not avail
+able
+(Font)              Font shape `TU/SourceSansPro(2)/b/it' tried instead on inpu
+t line 26.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/it' will be
+(Font)              scaled to size 8.0pt on input line 26.
+)
+(./cv_academic/teaching.tex) (./cv_academic/outreach.tex [4])
+(./cv_academic/mentorship.tex) (./cv_academic/communication.tex)
 (./cv_academic/skills.tex
 Overfull \hbox (72.28464pt too wide) in alignment at lines 10--31
 [] [] 
@@ -1020,11 +1033,11 @@ Package rerunfilecheck Info: File `cv_academic.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31341 strings out of 476919
- 622050 string characters out of 5821841
- 1125730 words of memory out of 5000000
- 50772 multiletter control sequences out of 15000+600000
- 405058 words of font info for 101 fonts, out of 8000000 for 9000
+ 31356 strings out of 476919
+ 622550 string characters out of 5821841
+ 1126730 words of memory out of 5000000
+ 50778 multiletter control sequences out of 15000+600000
+ 405082 words of font info for 104 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  127i,12n,130p,583b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
 
