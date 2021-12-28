@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  21 DEC 2021 22:58
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  22 DEC 2021 18:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**resume_federal.tex
-(./resume_federal.tex
+**resume-CDC.tex
+(./resume-CDC.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (./maedbh-cv.cls
 Document Class: maedbh-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
@@ -805,8 +805,8 @@ The existing definition of '\FA' will not be altered.
 )
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 78.
- (./resume_federal.aux)
-\openout1 = `resume_federal.aux'.
+ (./resume-CDC.aux)
+\openout1 = `resume-CDC.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
 LaTeX Font Info:    ... okay on input line 78.
@@ -923,9 +923,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 78.
 LaTeX Info: Redefining \pageref on input line 78.
 LaTeX Info: Redefining \nameref on input line 78.
- (./resume_federal.out) (./resume_federal.out)
+ (./resume-CDC.out) (./resume-CDC.out)
 \@outlinefile=\write6
-\openout6 = `resume_federal.out'.
+\openout6 = `resume-CDC.out'.
 
 \headertextwidth=\skip82
 \headerphotowidth=\skip83
@@ -955,7 +955,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-(./resume_federal/summary.tex
+(./resume_CDC/summary.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 16.0pt on input line 4.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
@@ -969,7 +969,7 @@ adership experience in academia and non-profit work. 7+ years experience conduc
 ting hypothesis-
  []
 
-) (./resume_federal/education.tex
+) (./resume_CDC/education.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 24.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
@@ -1000,7 +1000,7 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 24.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/n' will be
 (Font)              scaled to size 9.0pt on input line 24.
-) (./resume_federal/awards.tex
+) (./resume_CDC/awards.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 7.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
@@ -1010,10 +1010,10 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 9.0pt on input line 17.
 )
-(./resume_federal/experience.tex [1
+(./resume_CDC/experience.tex [1
 
-]) (./resume_federal/projects.tex)
-(./resume_federal/outreach.tex [2]) (./resume_federal/mentorship.tex
+]) (./resume_CDC/projects.tex)
+(./resume_CDC/outreach.tex [2]) (./resume_CDC/mentorship.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/b/it' tried instead on inpu
@@ -1021,13 +1021,13 @@ t line 24.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/it' will be
 (Font)              scaled to size 8.0pt on input line 24.
 )
-(./resume_federal/teaching.tex [3]) (./resume_federal/papers.tex)
-(./resume_federal/skills.tex
+(./resume_CDC/teaching.tex [3]) (./resume_CDC/papers.tex [4])
+(./resume_CDC/coursework.tex) (./resume_CDC/skills.tex
 Overfull \hbox (74.8079pt too wide) in alignment at lines 10--35
 [] [] 
  []
 
-) [4]
+) [5]
 
 ! LaTeX Error: \begin{center} on input line 12 ended by \end{document}.
 
@@ -1041,8 +1041,8 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-(./resume_federal.aux)
-Package rerunfilecheck Info: File `resume_federal.out' has not changed.
+(./resume-CDC.aux)
+Package rerunfilecheck Info: File `resume-CDC.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  )
 (\end occurred inside a group at level 2)
@@ -1051,12 +1051,12 @@ Package rerunfilecheck Info: File `resume_federal.out' has not changed.
 ### semi simple group (level 1) entered at line 12 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31348 strings out of 476919
- 622651 string characters out of 5821841
- 1126083 words of memory out of 5000000
- 50778 multiletter control sequences out of 15000+600000
+ 31352 strings out of 476919
+ 622554 string characters out of 5821841
+ 1126071 words of memory out of 5000000
+ 50779 multiletter control sequences out of 15000+600000
  406162 words of font info for 108 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 127i,12n,130p,761b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 127i,12n,130p,752b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume_federal.pdf (4 pages).
+Output written on resume-CDC.pdf (5 pages).
