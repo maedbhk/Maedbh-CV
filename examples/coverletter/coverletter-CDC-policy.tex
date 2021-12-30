@@ -1,0 +1,154 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{maedbh-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-skyblue}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[noedge,left]{profile.png}
+
+\name{Maedbh}{King}
+\position{{\enskip\cdotp\enskip}Ph.D. Candidate{\enskip\cdotp\enskip}}
+\address{67 Glen Avenue, \#202, Oakland, CA, USA}
+
+\mobile{(510) 570-5306}
+\email{maedbhking@gmail.com}
+\homepage{www.maedbhking.com}
+\github{maedbhk}
+%\linkedin{maedbhking}
+\googlescholar{YS9zF8gAAAAJ&hl}{Maedbh King}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Centers for Disease Control and Prevention}
+  {1600 Clifton Road\\Atlanta, GA\\30329 USA}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Application for CDC}
+% How the letter is opened
+\letteropening{To whom it may concern, }
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Maedbh King~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+\lettersection{About Me}
+I'm currently a Ph.D. candidate in cognitive and computational neuroscience at the University of California, Berkeley. I have 7+ years of research experience, and leadership expertise in academia and non-profit work. 
+
+	My research consists of hypothesis- and data-driven experimentation. I apply machine learning and statistics to large and complex databases to build models of brain function. I have a strong track record of publishing in high-impact, peer-reviewed scientific journals (>300 citations), presenting at research conferences (>10 proceedings), and making science accessible (>200 downloads of open-access datasets and code). 
+
+	As a scientist, I believe that I have a responsibility to educate and inform. I have enjoyed teaching neuroscience and psychology to students from different backgrounds: undergraduates at UC Berkeley, incarcerated students at San Quentin State Prison, and elementary schoolchildren in the Oakland unified school district. 
+	
+	My research interests dovetail strongly with science and health policy, and over the past 5 years, I have used data-driven solutions to promote issues concerning equity, transparency, and accountability within academia and non-profit organizations.  
+
+\lettersection{Why CDC?}
+
+As a neuroscientist, I am motivated to work at the CDC and use my scientific and data-driven expertise to protect people from public health threats, research emerging diseases, and mobilize public health programs and policy.  
+
+The CDC is highly effective at communicating complex scientific findings to non-expert audiences, and in making sound decisions driven by ethical consideration and critical analysis.
+I have enormous admiration for the important work undertaken at the CDC, and it would be a fantastic opportunity for me to use my experience as a scientist, educator, and academic mentor to implement policies and programs that align with the CDC's mission to protect Americans from health, safety, and security threats.  
+
+The CDC also offers a unique opportunity for presidential management fellows to partake in professional development training, which would allow me to strengthen my career ambitions. Most importantly, I am very excited at the prospect of working alongside colleagues who, as well as being innovative thinkers, are creative, thoughtful, and driven.
+
+\lettersection{Why Me?}
+I have experience in managing and leading projects related to science and health policy, and collaborating on cross-functional teams. Previous non-technical projects have included: 1) implementing departmental policy to codify mentor-mentee relationships in an effort to ensure transparency and mutual accountability, 2) conducting data analytics and providing data-driven solutions to translate graduate student concerns into policy recommendations, 3) drafting guidelines and maintaining ethics protocol to test clinical patients, 4) managing large and complex patient databases containing sensitive health and clinical information. Previous technical projects have included 1) leading a team of 8 to collect and analyze 300 hours of neuroimaging and eye-tracking data, 2) developing machine learning pipelines to identify learning in high-dimensional neural databases, 3) testing >50 patients with spinocerebellar ataxia on cognitive tasks to understand language deficits, and 4) reviewing and analyzing 30 years of peer-reviewed neuroscience/psychology literature to propose a novel theory of cerebellar function.
+
+	My research and non-profit work has involved a high level of written and oral communication, including 1) publishing scientific results in high-impact, peer-reviewed journals, 2) preparing and delivering presentations at domestic and international conferences, 3) providing practical consultation to university leadership to inform policy changes, and 4) delivering educational lectures to undergraduate students at UC Berkeley and San Quentin State Prison. 
+
+	I believe in the power of effective mentorship, and I have recruited many students from diverse backgrounds to work with me on scientific projects. My academic mentorship aims have been threefold: 1) educate and empower through positive reinforcement and critical feedback, 2) support and promote research/academic interests and provide guidance in career pursuits, and 3) supervise and edit written communication in the form of honors thesis projects, poster presentations, and/or scientific articles. 
+
+	My experience has taught me to maintain productive and collaborative relationships with colleagues from all over the world. I regularly act as a liaison between team leaders in 1) establishing norms and guidelines for collaborative decision making, 2) serving as a functional representative on team projects, and 3) initiating progress evaluations to ensure adherence to project timelines.  
+
+	Finally, I want to work on projects that matter both in terms of scale of impact, and importance to the wider community. I have far-reaching expertise that could be used to 1) assist program specialists with qualitative and quantitative data analyses, 2) interpret and apply guidelines for the analysis and evaluation of data in accordance with established policies and procedures, and 3) assist in preparing manuscript drafts and meeting abstracts. I am very excited about a future in the federal government, and I am highly motivated to apply my quantitative and communication skills to high‐impact projects that serve the American public. 
+
+\end{cvletter}
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
