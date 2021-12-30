@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  30 DEC 2021 12:17
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  30 DEC 2021 13:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1013,27 +1013,16 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (./resume_federal/experience.tex [1
 
 ]) (./resume_federal/projects.tex)
-(./resume_federal/outreach.tex [2]
-! Undefined control sequence.
-<argument> \textitt 
-                    {[link]}
-l.77     }
-          
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) (./resume_federal/mentorship.tex
+(./resume_federal/outreach.tex [2]) (./resume_federal/mentorship.tex)
+(./resume_federal/teaching.tex [3]) (./resume_federal/papers.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/b/it' tried instead on inpu
-t line 24.
+t line 276.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/it' will be
-(Font)              scaled to size 8.0pt on input line 24.
-) (./resume_federal/teaching.tex [3])
-(./resume_federal/papers.tex) (./resume_federal/skills.tex
+(Font)              scaled to size 8.0pt on input line 276.
+)
+(./resume_federal/skills.tex
 Overfull \hbox (74.8079pt too wide) in alignment at lines 10--35
 [] [] 
  []
@@ -1062,12 +1051,12 @@ Package rerunfilecheck Info: File `resume_federal.out' has not changed.
 ### semi simple group (level 1) entered at line 12 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31349 strings out of 476919
- 622658 string characters out of 5821841
- 1126083 words of memory out of 5000000
- 50779 multiletter control sequences out of 15000+600000
+ 31348 strings out of 476919
+ 622651 string characters out of 5821841
+ 1127083 words of memory out of 5000000
+ 50778 multiletter control sequences out of 15000+600000
  406162 words of font info for 108 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 127i,12n,130p,761b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 127i,12n,130p,760b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume_federal.pdf (4 pages).
