@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  22 DEC 2021 18:43
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  31 DEC 2021 12:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1013,17 +1013,17 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (./resume_CDC/experience.tex [1
 
 ]) (./resume_CDC/projects.tex)
-(./resume_CDC/outreach.tex [2]) (./resume_CDC/mentorship.tex
+(./resume_CDC/outreach.tex [2]) (./resume_CDC/mentorship.tex)
+(./resume_CDC/teaching.tex [3]) (./resume_CDC/papers.tex [4]
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/b/it' tried instead on inpu
-t line 24.
+t line 276.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/it' will be
-(Font)              scaled to size 8.0pt on input line 24.
+(Font)              scaled to size 8.0pt on input line 276.
 )
-(./resume_CDC/teaching.tex [3]) (./resume_CDC/papers.tex [4])
 (./resume_CDC/coursework.tex) (./resume_CDC/skills.tex
-Overfull \hbox (74.8079pt too wide) in alignment at lines 10--35
+Overfull \hbox (74.8079pt too wide) in alignment at lines 10--39
 [] [] 
  []
 
@@ -1053,10 +1053,10 @@ Package rerunfilecheck Info: File `resume-CDC.out' has not changed.
 Here is how much of TeX's memory you used:
  31352 strings out of 476919
  622554 string characters out of 5821841
- 1126071 words of memory out of 5000000
+ 1127071 words of memory out of 5000000
  50779 multiletter control sequences out of 15000+600000
  406162 words of font info for 108 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 127i,12n,130p,752b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 127i,12n,130p,752b,586s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume-CDC.pdf (5 pages).

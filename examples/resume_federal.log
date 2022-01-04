@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  30 DEC 2021 13:13
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  31 DEC 2021 12:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -840,11 +840,11 @@ LaTeX Info: Redefining \selectfont on input line 78.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(39.83368pt, 517.84052pt, 39.83368pt)
-* v-part:(T,H,B)=(22.76228pt, 771.06952pt, 51.21504pt)
+* v-part:(T,H,B)=(22.76228pt, 779.60544pt, 42.67912pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=517.84052pt
-* \textheight=771.06952pt
+* \textheight=779.60544pt
 * \oddsidemargin=-32.43631pt
 * \evensidemargin=-32.43631pt
 * \topmargin=-86.5077pt
@@ -1023,7 +1023,7 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/it' will be
 (Font)              scaled to size 8.0pt on input line 276.
 )
 (./resume_federal/skills.tex
-Overfull \hbox (74.8079pt too wide) in alignment at lines 10--35
+Overfull \hbox (74.8079pt too wide) in alignment at lines 10--39
 [] [] 
  []
 
@@ -1053,10 +1053,10 @@ Package rerunfilecheck Info: File `resume_federal.out' has not changed.
 Here is how much of TeX's memory you used:
  31348 strings out of 476919
  622651 string characters out of 5821841
- 1127083 words of memory out of 5000000
+ 1128083 words of memory out of 5000000
  50778 multiletter control sequences out of 15000+600000
  406162 words of font info for 108 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 127i,12n,130p,760b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 127i,12n,130p,760b,586s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume_federal.pdf (4 pages).
