@@ -1,0 +1,132 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[9pt, a4paper]{maedbh-cv}
+
+% Configure page margins with geometry
+\geometry{left=1cm, top=.5cm, right=1cm, bottom=0.8cm, footskip=0cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-skyblue}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[noedge,left]{profile.png}
+
+\name{Maedbh}{King}
+\position{{\enskip\cdotp\enskip}Ph.D. Candidate{\enskip\cdotp\enskip}}
+\address{67 Glen Avenue, \#202, Oakland, CA, USA}
+
+\mobile{(510) 570-5306}
+\email{maedbhking@gmail.com}
+\homepage{www.maedbhking.com}
+\github{maedbhk}
+%\linkedin{maedbhking}
+\googlescholar{YS9zF8gAAAAJ&hl}{Maedbh King}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {National Institutes of Health}
+  {9000 Rockville Pike\\Bethesda, MD, 20892 USA}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Application for Health Specialist}
+% How the letter is opened
+\letteropening{To whom it may concern, }
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Maedbh King~~~·~~~Cover Letter}
+  {}
+  
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+\lettersection{About Me}
+I'm currently finishing my Ph.D. in cognitive and computational neuroscience at the University of California, Berkeley. I have 6+ years of research experience, and leadership expertise in academia and non-profit work. My research consists of hypothesis- and data-driven experimentation, and I apply machine learning and statistics to large and complex databases to build models of brain function. I have a strong track record of publishing in high-impact, peer-reviewed scientific journals (>350 citations), presenting at research conferences (>10 proceedings), and making science accessible (>200 downloads of open-access datasets and code). I also enjoy teaching and mentoring diverse groups of students, from undergraduates at UC Berkeley to incarcerated students at San Quentin State Prison. Furthermore, my research interests dovetail strongly with science and technology policy, and over the past 5 years, I have used data-driven solutions to promote issues concerning equity, transparency, and accountability within academia and non-profit organizations. 
+
+\lettersection{Why NIH?}
+As a neuroscientist, I am motivated to work at the NIH as a health specialist and use my scientific and data-driven expertise to support and strengthen research programs in U.S. institutions, and work on projects that lead the way in creative and collaborative discoveries. I am excited at the prospect of using my experience as a scientist, educator, and mentor to work at the foundation of medical and scientific innovation, and I am particularly interested in a scientific program analyst role. Furthermore, the at-large PMF program at the NIH offers a unique opportunity for professional development training, and I am very eager to hone and develop my leadership skills and expertise through meaningful work assignments. Most importantly, I am excited at the prospect of working alongside colleagues who, as well as being innovative thinkers, are creative, thoughtful, and driven. 
+
+\lettersection{Why Me?}
+I have gained a lot of technical expertise during my STEM Ph.D., with a particular focus on data science techniques and advanced statistics. However, as every scientist knows, non-technical skills are integral to successful research, from developing efficient communication strategies for managing cross-functional projects, to establishing norms and guidelines for collaborative decision-making. I believe that I have the skills necessary to work as a health specialist at the NIH. For example, I have the ability to develop qualitative and quantitative analytic methods to evaluate program efficiency, and indeed I have previously used my data science training to recommend data-driven solutions to university leadership, resulting in increased stipends for psychology graduate students. Further, I have co-written two NIH grants (R35 was funded, R01 was not) with my PhD supervisor, therefore, I have the knowledge required to review grant applications, and identify reviewers with the appropriate expertise. I have managed large-scale neuroimaging projects and I therefore can take on many roles that involve planning, program development, and analysis. Finally, it is because of funding from the NIH that I have been able to conduct high-quality scientific research during my Ph.D. For this reason, I would relish the opportunity to apply what I have learned, namely quantitative and communication skills, to high-impact projects that push the boundaries of scientific knowledge. 
+
+\end{cvletter}
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+\end{document}
