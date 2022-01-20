@@ -1,0 +1,132 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[9pt, a4paper]{maedbh-cv}
+
+% Configure page margins with geometry
+\geometry{left=1cm, top=.5cm, right=1cm, bottom=0.8cm, footskip=0cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-skyblue}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[noedge,left]{profile.png}
+
+\name{Maedbh}{King}
+\position{{\enskip\cdotp\enskip}Ph.D. Candidate{\enskip\cdotp\enskip}}
+\address{67 Glen Avenue, \#202, Oakland, CA, USA}
+
+\mobile{(510) 570-5306}
+\email{maedbhking@gmail.com}
+\homepage{www.maedbhking.com}
+\github{maedbhk}
+%\linkedin{maedbhking}
+\googlescholar{YS9zF8gAAAAJ&hl}{Maedbh King}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {USDA Food and Nutrition Service}
+  {90 7th Street\\San Francisco, CA 94103}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Application for Program Specialist}
+% How the letter is opened
+\letteropening{To whom it may concern, }
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Curriculum Vitae}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Maedbh King~~~·~~~Cover Letter}
+  {}
+  
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+\lettersection{About Me}
+I'm currently finishing my Ph.D. in cognitive and computational neuroscience at the University of California, Berkeley. I have 6+ years of research experience, and leadership expertise in academia and non-profit work. My research consists of hypothesis- and data-driven experimentation. In my work, I apply machine learning and statistics to large and complex databases to build models of brain function. I have a strong track record of publishing in high-impact, peer-reviewed scientific journals (>350 citations), presenting at research conferences (>10 proceedings), and making science accessible (>200 downloads of open-access datasets and code). I also enjoy teaching and mentoring diverse groups of students, from undergraduates at UC Berkeley, to incarcerated students at San Quentin State Prison. Furthermore, my research interests dovetail strongly with science and technology policy, and over the past 5 years, I have used data-driven solutions to promote issues concerning equity, transparency, and accountability within academia and non-profit organizations. 
+
+\lettersection{Why FNS?}
+As a neuroscientist, I have enormous admiration for the important work conducted at FNS. This government agency works on behalf of America's vulnerable to increase food security and reduce hunger by providing children and low-income people with access to a healthy diet, and nutrition education. Although I am neither a nutritionist nor a food scientist, I am keen to use my scientific training, particularly my computational expertise, to work on innovative projects that translate knowledge into real-world solutions that benefit underprivileged Americans. I also believe that I can draw from my experience as an educator and academic mentor to establish productive and collaborative relationships with colleagues from diverse professional and demographic backgrounds. The PMF program at FNS offers a unique opportunity for professional development training, and I am very eager to hone my leadership skills and expertise through meaningful work assignments. Most importantly, I am excited at the prospect of working alongside colleagues who, as well as being innovative thinkers, are creative, thoughtful, and driven. 
+
+\lettersection{Why Me?}
+I have gained a lot of technical expertise during my STEM Ph.D., with a particular focus on data science techniques and advanced statistics. However, as every scientist knows, non-technical skills are integral to successful research, from developing efficient communication strategies for managing cross-functional projects, to establishing norms and guidelines for collaborative decision-making. Some of my previous work has involved grant writing, editorial duties, conference organization, high-level project planning, patient testing, setting up computational clusters, leading a team of 5 during COVID-19 pandemic to collect 300+ hours of neuroimaging data, and using data-driven solutions to advise university leadership on program evaluations. I believe that I have the skills necessary to work in many different capacities at FNS, from providing technical assistance and training to State agencies to conducting policy research and analysis. On a more personal note, having lived in the Bay Area for the past 4 years, I have witnessed first-hand the hardship caused by food insecurity. Therefore, I am motivated to apply what I have learned, namely quantitative and communication skills, to high-impact projects that serve Americans most in need.
+
+\end{cvletter}
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+\end{document}
