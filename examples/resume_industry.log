@@ -1,16 +1,16 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  2 FEB 2022 17:11
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  6 FEB 2022 18:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**resume_federal.tex
-(./resume_federal.tex
+**resume_industry.tex
+(./resume_industry.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (./maedbh-cv.cls
 Document Class: maedbh-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count175
 \c@section=\count176
@@ -804,9 +804,14 @@ The existing definition of '\FA' will not be altered.
 
 )
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 78.
- (./resume_federal.aux)
-\openout1 = `resume_federal.aux'.
+(Font)              scaled to size 10.0pt on input line 78.
+
+
+LaTeX Warning: Unused global option(s):
+    [8pt].
+
+(./resume_industry.aux)
+\openout1 = `resume_industry.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
 LaTeX Font Info:    ... okay on input line 78.
@@ -839,23 +844,23 @@ LaTeX Info: Redefining \selectfont on input line 78.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(39.83368pt, 517.84052pt, 39.83368pt)
-* v-part:(T,H,B)=(22.76228pt, 779.60544pt, 42.67912pt)
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(5.69046pt, 835.9422pt, 3.41418pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=517.84052pt
-* \textheight=779.60544pt
-* \oddsidemargin=-32.43631pt
-* \evensidemargin=-32.43631pt
-* \topmargin=-86.5077pt
+* \textwidth=540.60239pt
+* \textheight=835.9422pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-103.57953pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
-* \footskip=14.22636pt
-* \marginparwidth=50.0pt
-* \marginparsep=10.0pt
+* \topskip=10.0pt
+* \footskip=2.84544pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -923,30 +928,30 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 78.
 LaTeX Info: Redefining \pageref on input line 78.
 LaTeX Info: Redefining \nameref on input line 78.
- (./resume_federal.out) (./resume_federal.out)
+ (./resume_industry.out) (./resume_industry.out)
 \@outlinefile=\write6
-\openout6 = `resume_federal.out'.
+\openout6 = `resume_industry.out'.
 
 \headertextwidth=\skip82
 \headerphotowidth=\skip83
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 82.
+(Font)              scaled to size 10.00107pt on input line 82.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.6658pt on input line 82.
+(Font)              scaled to size 7.00075pt on input line 82.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.47559pt on input line 82.
+(Font)              scaled to size 5.00053pt on input line 82.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 82.
+(Font)              scaled to size 9.99893pt on input line 82.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.66417pt on input line 82.
+(Font)              scaled to size 6.99925pt on input line 82.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.47441pt on input line 82.
+(Font)              scaled to size 4.99947pt on input line 82.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 7.6pt on input line 82.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 7.6pt on input line 82.
 
-Overfull \hbox (1.46pt too wide) in paragraph at lines 82--83
+Overfull \hbox (1.33334pt too wide) in paragraph at lines 82--83
 []$[]$ $[]$$[]$
  []
 
@@ -955,108 +960,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-(./resume_federal/summary.tex
+(./resume_industry/summary.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 16.0pt on input line 4.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 16.0pt on input line 4.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 10.
-
-Overfull \hbox (11.9397pt too wide) in paragraph at lines 13--14
-[]\TU/SourceSansPro(2)/m/n/9 Cognitive and computational neuroscientist with le
-adership experience in academia and non-profit work. 6+ years experience conduc
-ting hypothesis-
- []
-
-) (./resume_federal/education.tex
+) (./resume_industry/education.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 24.
+(Font)              scaled to size 10.0pt on input line 23.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 24.
+(Font)              scaled to size 10.0pt on input line 23.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 24.
+t line 23.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 24.
+(Font)              scaled to size 9.0pt on input line 23.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/b/it' tried instead on inpu
-t line 24.
+t line 23.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/it' will be
-(Font)              scaled to size 9.0pt on input line 24.
+(Font)              scaled to size 9.0pt on input line 23.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 24.
+(Font)              scaled to size 8.0pt on input line 23.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 24.
+(Font)              scaled to size 8.0pt on input line 23.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 24.
+(Font)              scaled to size 8.0pt on input line 23.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 24.
+t line 23.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 24.
+(Font)              scaled to size 8.0pt on input line 23.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 24.
-) (./resume_federal/awards.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 7.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 7.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 17.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 9.0pt on input line 17.
+(Font)              scaled to size 9.0pt on input line 23.
 )
-(./resume_federal/experience.tex [1
-
-]) (./resume_federal/projects.tex)
-(./resume_federal/outreach.tex [2]) (./resume_federal/mentorship.tex)
-(./resume_federal/teaching.tex [3]) (./resume_federal/papers.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/sl' in size <8> not avail
-able
-(Font)              Font shape `TU/SourceSansPro(2)/b/it' tried instead on inpu
-t line 276.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/it' will be
-(Font)              scaled to size 8.0pt on input line 276.
-)
-(./resume_federal/skills.tex
-Overfull \hbox (74.8079pt too wide) in alignment at lines 10--39
+(./resume_industry/experience.tex) (./resume_industry/projects.tex)
+(./resume_industry/skills.tex
+Overfull \hbox (71.14647pt too wide) in alignment at lines 10--27
 [] [] 
  []
 
-) [4]
+)
 
-! LaTeX Error: \begin{center} on input line 12 ended by \end{document}.
+Package fancyhdr Warning: \footskip is too small (2.84544pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+[1
 
-(./resume_federal.aux)
-Package rerunfilecheck Info: File `resume_federal.out' has not changed.
+] (./resume_industry.aux)
+Package rerunfilecheck Info: File `resume_industry.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- )
-(\end occurred inside a group at level 2)
-
-### semi simple group (level 2) entered at line 12 (\begingroup)
-### semi simple group (level 1) entered at line 12 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 31348 strings out of 476919
- 622651 string characters out of 5821841
- 1128120 words of memory out of 5000000
- 50778 multiletter control sequences out of 15000+600000
- 406162 words of font info for 108 fonts, out of 8000000 for 9000
+ 31313 strings out of 476919
+ 621491 string characters out of 5821841
+ 1128740 words of memory out of 5000000
+ 50764 multiletter control sequences out of 15000+600000
+ 405042 words of font info for 99 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 127i,12n,130p,760b,586s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 127i,11n,130p,766b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume_federal.pdf (4 pages).
+Output written on resume_industry.pdf (1 page).
