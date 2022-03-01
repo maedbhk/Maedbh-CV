@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  2 FEB 2022 17:11
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  1 MAR 2022 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1013,14 +1013,20 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (./resume_federal/experience.tex [1
 
 ]) (./resume_federal/projects.tex)
-(./resume_federal/outreach.tex [2]) (./resume_federal/mentorship.tex)
-(./resume_federal/teaching.tex [3]) (./resume_federal/papers.tex
+(./resume_federal/outreach.tex [2]) (./resume_federal/mentorship.tex
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/sc' will be
+(Font)              scaled to size 8.0pt on input line 22.
+)
+(./resume_federal/teaching.tex) (./resume_federal/papers.tex
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 6.
+ [3]
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/b/it' tried instead on inpu
-t line 276.
+t line 312.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/it' will be
-(Font)              scaled to size 8.0pt on input line 276.
+(Font)              scaled to size 8.0pt on input line 312.
 )
 (./resume_federal/skills.tex
 Overfull \hbox (74.8079pt too wide) in alignment at lines 10--39
@@ -1051,12 +1057,12 @@ Package rerunfilecheck Info: File `resume_federal.out' has not changed.
 ### semi simple group (level 1) entered at line 12 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31348 strings out of 476919
- 622651 string characters out of 5821841
+ 31351 strings out of 476919
+ 622780 string characters out of 5821841
  1128120 words of memory out of 5000000
- 50778 multiletter control sequences out of 15000+600000
- 406162 words of font info for 108 fonts, out of 8000000 for 9000
+ 50780 multiletter control sequences out of 15000+600000
+ 406170 words of font info for 109 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 127i,12n,130p,760b,586s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 127i,12n,130p,822b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume_federal.pdf (4 pages).
