@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  5 MAR 2022 09:29
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  31 MAY 2022 14:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1034,17 +1034,20 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 8.
  [1
 
-]) (./cv_academic/teaching.tex)
-(./cv_academic/mentorship.tex [2]) (./cv_academic/papers.tex [3])
-(./cv_academic/grants.tex) (./cv_academic/posters.tex [4])
-(./cv_academic/talks.tex
+]) (./cv_academic/papers.tex [2])
+(./cv_academic/posters.tex [3]) (./cv_academic/talks.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/b/it' tried instead on inpu
 t line 26.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/it' will be
 (Font)              scaled to size 8.0pt on input line 26.
-) (./cv_academic/outreach.tex [5])
+ [4])
+(./cv_academic/grants.tex) (./cv_academic/teaching.tex)
+(./cv_academic/mentorship.tex) (./cv_academic/outreach.tex
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
+(Font)              scaled to size 16.0pt on input line 4.
+ [5])
 (./cv_academic/skills.tex
 Overfull \hbox (72.53157pt too wide) in alignment at lines 10--43
 [] [] 
@@ -1074,12 +1077,12 @@ Package rerunfilecheck Info: File `cv_academic.out' has not changed.
 ### semi simple group (level 1) entered at line 12 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31361 strings out of 476919
- 622763 string characters out of 5821841
- 1129099 words of memory out of 5000000
- 50782 multiletter control sequences out of 15000+600000
+ 31362 strings out of 476919
+ 622789 string characters out of 5821841
+ 1126075 words of memory out of 5000000
+ 50783 multiletter control sequences out of 15000+600000
  406162 words of font info for 108 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 127i,12n,130p,881b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 127i,12n,130p,866b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on cv_academic.pdf (6 pages).
