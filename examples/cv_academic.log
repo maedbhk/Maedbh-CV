@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  5 AUG 2022 14:31
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.6)  20 OCT 2022 13:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -987,47 +987,47 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/it' will be
 (Font)              scaled to size 9.0pt on input line 17.
 ) (./cv_academic/experience.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 22.
+(Font)              scaled to size 10.0pt on input line 23.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 22.
+(Font)              scaled to size 10.0pt on input line 23.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 22.
+(Font)              scaled to size 8.0pt on input line 23.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 22.
+(Font)              scaled to size 8.0pt on input line 23.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 22.
+(Font)              scaled to size 8.0pt on input line 23.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 22.
+t line 23.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 22.
+(Font)              scaled to size 8.0pt on input line 23.
 
 
 LaTeX Font Warning: Font shape `TU/SourceSansPro(1)/m/scit' undefined
-(Font)              using `TU/SourceSansPro(1)/m/it' instead on input line 41.
+(Font)              using `TU/SourceSansPro(1)/m/it' instead on input line 43.
 
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 41.
+(Font)              scaled to size 8.0pt on input line 43.
 
 LaTeX Font Warning: Font shape `TU/SourceSansPro(1)/m/scit' undefined
-(Font)              using `TU/SourceSansPro(1)/m/it' instead on input line 41.
-
-
-LaTeX Font Warning: Font shape `TU/SourceSansPro(1)/m/scit' undefined
-(Font)              using `TU/SourceSansPro(1)/m/it' instead on input line 41.
+(Font)              using `TU/SourceSansPro(1)/m/it' instead on input line 43.
 
 
 LaTeX Font Warning: Font shape `TU/SourceSansPro(1)/m/scit' undefined
-(Font)              using `TU/SourceSansPro(1)/m/it' instead on input line 56.
+(Font)              using `TU/SourceSansPro(1)/m/it' instead on input line 43.
 
 
 LaTeX Font Warning: Font shape `TU/SourceSansPro(1)/m/scit' undefined
-(Font)              using `TU/SourceSansPro(1)/m/it' instead on input line 56.
+(Font)              using `TU/SourceSansPro(1)/m/it' instead on input line 58.
 
 
 LaTeX Font Warning: Font shape `TU/SourceSansPro(1)/m/scit' undefined
-(Font)              using `TU/SourceSansPro(1)/m/it' instead on input line 56.
+(Font)              using `TU/SourceSansPro(1)/m/it' instead on input line 58.
+
+
+LaTeX Font Warning: Font shape `TU/SourceSansPro(1)/m/scit' undefined
+(Font)              using `TU/SourceSansPro(1)/m/it' instead on input line 58.
 
 [1
 
@@ -1041,16 +1041,13 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/it' will be
 (Font)              scaled to size 8.0pt on input line 26.
  [4])
 (./cv_academic/grants.tex) (./cv_academic/teaching.tex)
-(./cv_academic/mentorship.tex) (./cv_academic/outreach.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 16.0pt on input line 4.
- [5])
+(./cv_academic/mentorship.tex) (./cv_academic/outreach.tex [5])
 (./cv_academic/skills.tex
 Overfull \hbox (72.53157pt too wide) in alignment at lines 10--43
 [] [] 
  []
 
-) [6]
+[6]) [7]
 
 ! LaTeX Error: \begin{center} on input line 12 ended by \end{document}.
 
@@ -1068,18 +1065,20 @@ or  <return>  to continue without it.
 Package rerunfilecheck Info: File `cv_academic.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  )
-(\end occurred inside a group at level 2)
+(\end occurred inside a group at level 4)
 
-### semi simple group (level 2) entered at line 12 (\begingroup)
-### semi simple group (level 1) entered at line 12 (\begingroup)
+### semi simple group (level 4) entered at line 12 (\begingroup)
+### semi simple group (level 3) entered at line 12 (\begingroup)
+### semi simple group (level 2) entered at line 11 (\begingroup)
+### semi simple group (level 1) entered at line 11 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 31361 strings out of 476919
- 622763 string characters out of 5821841
- 1127068 words of memory out of 5000000
- 50782 multiletter control sequences out of 15000+600000
+ 31360 strings out of 476919
+ 622737 string characters out of 5821841
+ 1127063 words of memory out of 5000000
+ 50781 multiletter control sequences out of 15000+600000
  406162 words of font info for 108 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 127i,12n,130p,883b,509s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 127i,12n,130p,684b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on cv_academic.pdf (6 pages).
+Output written on cv_academic.pdf (7 pages).
